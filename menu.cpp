@@ -172,12 +172,16 @@ void runGenerator(){
 
 	prompt("$DEL$ gen.exe");
 
-	promt("$LIST$ >temp");
+	prompt("$LIST$ >temp");
 }
 
 void runOutputs(){
 
 
+}
+
+void runSolutions(){
+	
 }
 
 int main(){
