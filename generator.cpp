@@ -20,7 +20,7 @@ int main(int argc, char *argv[ ]){
 
 	if(t == 1){ // T = 3 e N = 5 e {x,y,z} E [-30,30]
 
-		cout << 3 << endl;
+		//cout << 3 << endl;
 		int tc = 3;
 		while(tc--){
 			int n = 5;
@@ -34,10 +34,11 @@ int main(int argc, char *argv[ ]){
 				}
 			}
 		}
+		cout << 0 << endl;
 	}
 	else if(t == 2){ // T = 10000 e N = 100 e {x,y,z} E [-10000, 10000]
 		int tc = 10000;
-		cout << tc << endl;
+		//cout << tc << endl;
 		while(tc--){
 			int n = 100;
 			cout << n << endl;
@@ -50,10 +51,11 @@ int main(int argc, char *argv[ ]){
 				}
 			}
 		}
+		cout << 0 << endl;
 	}
 	else{ // aleatorio
 		int tc = uniform_int_distribution<int>(1,100)(rng);
-		cout << tc << endl;
+		//cout << tc << endl;
 		while(tc--){
 			int n = uniform_int_distribution<int>(1,100)(rng);
 			cout << n << endl;
@@ -66,5 +68,6 @@ int main(int argc, char *argv[ ]){
 				}
 			}
 		}
+		cout << 0 << endl;
 	}
 }
